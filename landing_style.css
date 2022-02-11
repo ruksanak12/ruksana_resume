@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    margin:0;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom:2rem;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.container-fluid{
+    padding: 0% 10%;
+    
+}
+
+/*About*/
+
+
+h2, h3{
+    font-family: 'Alata', sans-serif;
+    color: #11999E;
+    text-align: left;
+    margin: 5% 0 3%;
+    
+}
+
+h2{
+    font-size: 3em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.about{
+    text-align: left;
+}
+p, ul{
+    color: white;
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+
+/*Work section*/  
+.row{
+    padding: 5% 0 ;
+}
+
+.work_img{
+    margin: 10px 10px 20px;
+}
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+
+}
+
+/*footer*/
+
+
+#footer{
+    background-color:black;
+    text-align: center;
+    padding: 10% 20% 2%;
+}
+
+.footer-logo{
+    margin: 10px;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+}

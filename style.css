@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    margin:0;
+}
+
+h1{
+    color: #66BFBF;
+    margin-top: 11%;
+    margin-bottom: 4%;
+    font-family: 'El Messiri', sans-serif;
+    text-align: left;
+    font-size: 3.5rem;
+    padding-bottom: 0;
+}
+
+h2{
+    font-family: 'Alata', sans-serif;
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: normal;
+    }
+
+h3{
+    font-family: 'Alata', sans-serif;
+    color: #11999E;
+    font-size: 2em;
+    
+}
+
+p{
+    color: white;
+}
+/*
+.title-img{
+    width: 22%;
+    position:absolute;
+    margin:2% 8% 5% 10%;
+    
+}
+*/
+
+
+.btn{
+    margin-top: 10%;
+    margin-bottom: 15%;
+    
+    
+
+}
+
+
+.container-fluid{
+    padding: 4% 10% 9%;
+    
+}
+
+.title-img{
+    width: 25%;
+    position: absolute;
+    right: 10%;
+    margin-top: 0%;
+}
+
+@media (min-width:991px) and (max-width:1048px){
+    .title-img{
+        position: absolute;
+        width: 20%;
+        font-size:4px;
+    }
+    .container-fluid{
+        padding: 3% 13%;
+    }
+}
+
+@media (max-width:992px){
+    #title, h1 {
+        text-align: center;
+    }
+
+
+    .title-img{
+        position: static;
+        transform: rotate(0) ;
+        width: 50%;
+    }
+}
+
+/*Nav Bar*/
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.download-button{
+    margin: 5% 2%;
+}
+
+/*footer*/
+
+
+#footer{
+    background-color:black;
+    text-align: center;
+    padding: 10% 20% 2%;
+}
+
+.footer-logo{
+    margin: 10px;
+    color: white;
+}
+

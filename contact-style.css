@@ -1,0 +1,113 @@
+body{
+    background-color: black;
+    margin:0;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom:2rem;
+}
+
+.nav-item{
+    padding: 0 5px;
+    font-weight: normal;
+}
+
+.container-fluid{
+    padding: 0% 10%;
+    
+}
+
+main{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.glass{
+    background: white;
+    min-height: 55vh;
+    width:60%;
+    background: linear-gradient(
+    to right bottom, 
+    rgba( 255,255,255, 0.8),
+    rgba( 255,255,255, 0.3)
+    );
+    border-radius: 1rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+}
+
+.circle1, .circle2{
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+
+    background: linear-gradient(
+    to right bottom, 
+    rgba( 255,255,255, 0.8),
+    rgba( 255,255,255, 0.2)
+    );
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.circle1{
+    top: 22%;
+    left: 13%;
+    
+}
+
+.circle2{
+    bottom: 7%;
+    right: 13%;
+
+}
+
+.contact_me{
+    text-align: center;
+    padding: 8% 10%;
+}
+
+h3{
+    font-size: 3rem;
+    color:white;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+.btn{
+    font-size: 1.2rem;
+    font-family: ub;
+    font-family: 'Lato', sans-serif;
+}
+
+/*footer*/
+
+
+#footer{
+    background-color:black;
+    text-align: center;
+    padding: 10% 20% 2%;
+}
+
+.footer-logo{
+    margin: 10px;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+}
+
+p{
+    color: white;
+}
